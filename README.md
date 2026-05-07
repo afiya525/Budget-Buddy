@@ -7,16 +7,17 @@ Budget Buddy helps users manage their daily expenses, monitor spending habits, a
 
 ## 🚀 Features
 
--  User Authentication (Signup/Login)
--  Add & Manage Expenses
--  Interactive Expense Analytics Dashboard
--  Spending Trend Visualization
--  Category-wise Expense Distribution Chart
--  Monthly Budget Goal Tracking
--  Smart Spending Insights
--  Filter Expenses by Date
--  Export Expense Report as CSV
--  Modern Responsive UI using Tailwind CSS
+- 🔐 User Authentication (Signup/Login)
+- 💵 Add & Manage Expenses
+- 📊 Interactive Expense Analytics Dashboard
+- 📈 Spending Trend Visualization
+- 🥧 Category-wise Expense Distribution Chart
+- 🎯 Monthly Budget Goal Tracking
+- 🧠 Smart Spending Insights
+- 📅 Filter Expenses by Date
+- 📤 Export Expense Report as CSV
+- 🎨 Modern Responsive UI using Tailwind CSS
+
 
 ---
 
