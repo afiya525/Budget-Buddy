@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budget Buddy | Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: radial-gradient(circle at top right, #fdf8f5, #f3ece7); }
+    </style>
+</head>
+<body class="text-stone-800 flex items-center justify-center min-h-screen p-6">
+    <div class="bg-white/80 p-10 rounded-[2.5rem] border border-stone-200 w-full max-w-md backdrop-blur-xl shadow-xl shadow-stone-200/50">
+        <h2 class="text-3xl font-black mb-2 text-[#8b5e3c]">Welcome Back.</h2>
+        <p class="text-stone-500 mb-8 text-sm font-medium">Access your personalized Budget Buddy ledger.</p>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Username" class="w-full bg-white border border-stone-200 p-4 rounded-2xl mb-4 focus:border-[#8b5e3c] outline-none transition" required>
+            <input type="password" name="password" placeholder="Password" class="w-full bg-white border border-stone-200 p-4 rounded-2xl mb-6 focus:border-[#8b5e3c] outline-none transition" required>
+            <button type="submit" class="w-full bg-[#8b5e3c] text-white font-black py-4 rounded-2xl hover:bg-[#724a2f] transition shadow-lg shadow-brown-500/20">Login</button>
+        </form>
+        <p class="mt-6 text-center text-xs text-stone-400 font-bold uppercase tracking-widest">New here? <a href="/signup" class="text-[#8b5e3c] hover:underline">Create an account</a></p>
+    </div>
+</body>
+</html>

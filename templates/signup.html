@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Buddy | Join Now</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: radial-gradient(circle at bottom left, #fdf8f5, #f3ece7); }
+    </style>
+</head>
+<body class="text-stone-800 flex items-center justify-center min-h-screen p-6">
+    <div class="bg-white/80 p-10 rounded-[2.5rem] border border-stone-200 w-full max-w-md backdrop-blur-xl shadow-xl shadow-stone-200/50">
+        <div class="mb-8">
+            <h2 class="text-4xl font-black mb-2 text-[#8b5e3c] tracking-tighter">Start Your Ledger.</h2>
+            <p class="text-stone-500 text-sm font-medium">Join Budget Buddy to track your expenses securely in your personal space.</p>
+        </div>
+
+        <form method="POST" class="space-y-4">
+            <div>
+                <label class="text-xs font-bold text-stone-400 uppercase ml-2 mb-1 block tracking-widest">Username</label>
+                <input type="text" name="username" placeholder="Choose a unique handle" 
+                       class="w-full bg-white border border-stone-200 p-4 rounded-2xl focus:border-[#8b5e3c] outline-none transition" required>
+            </div>
+            <div>
+                <label class="text-xs font-bold text-stone-400 uppercase ml-2 mb-1 block tracking-widest">Password</label>
+                <input type="password" name="password" placeholder="••••••••" 
+                       class="w-full bg-white border border-stone-200 p-4 rounded-2xl focus:border-[#8b5e3c] outline-none transition" required>
+            </div>
+            
+            <button type="submit" class="w-full bg-[#8b5e3c] text-white font-black py-4 rounded-2xl hover:bg-[#724a2f] transition-all transform hover:scale-[1.02] shadow-lg shadow-brown-500/20 mt-4">
+                Create Account
+            </button>
+        </form>
+
+        <div class="mt-8 pt-6 border-t border-stone-100 text-center">
+            <p class="text-sm text-stone-500 font-medium">Already a member? 
+                <a href="/login" class="text-[#8b5e3c] font-bold hover:underline ml-1">Log in here</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
