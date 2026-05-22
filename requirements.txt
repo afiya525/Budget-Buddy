@@ -1,0 +1,6 @@
+flask
+flask-login
+pandas
+plotly
+werkzeug
+gunicorn
